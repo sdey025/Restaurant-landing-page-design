@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        * {
+            font-family: 'Roboto Slab', serif;
+        }
+
+        ::selection {
+            background-color: #F5A637;
+        }
+
+        #background {
+            background-image: url('back.png');
+            background-size: cover;
+        }
+
+        .smallpara {
+            font-size: 13px;
+        }
+
+        .brand {
+            font-family: 'Pacifico', cursive;
+        }
+
+        .desc {
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+
+        .desc1 {
+            margin-left: 32%;
+            margin-right: 32%;
+            margin-top: -15px;
+        }
+
+        .desc2 {
+            margin-left: 34%;
+            margin-right: 34%;
+            margin-top: -15px;
+        }
+
+        .button {
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        #lorem1::before {
+            display: block;
+            content: '';
+            background-color: #F5A637;
+            border: 2px solid #F5A637;
+            width: 35px;
+            margin-bottom: 20px;
+        }
+
+        #mycard {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            z-index: 900;
+            position: relative;
+            margin-top: -450px;
+        }
+
+        #behiend {
+            width: 80%;
+            height: 450px;
+            position: relative;
+            left: 80px;
+            top: 50px;
+        }
+
+        #menu {
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+
+        #d1 {
+            margin: 0 7%;
+        }
+
+        #contact {
+            background-color: #F0F0F0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="background">
+        <nav class="navbar navbar-expand-lg bg-transparent text-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand fw-bold text-light brand"
+                    style="font-size: 30px; margin-left: 20px;">Brand</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mydrp"
+                    aria-controls="mydrp" aria-expanded="false">
+                    <i class="fas fa-bars text-light"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="mydrp">
+                    <div class="navbar-nav" style="margin-left: 1040px;">
+                        <a href="#" class="nav-link text-light">Home</a>
+                        <a href="#" class="nav-link text-light">About</a>
+                        <a href="#" class="nav-link text-light">Blogs</a>
+                        <a href="#" class="nav-link text-light">Contact Us</a>
+                        <a href="#" class="nav-link text-light">Help</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <p class="fw-bold text-center text-light smallpara"><b style="color: #F5A637;">CAFÉ</b> / RESTAURANT</p>
+        <br>
+        <h1 class="text-center text-light brand" style="font-size: 70px;">Brand.</h1>
+        <br>
+        <br>
+        <p class="text-light text-center desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum dicta,
+            rerum </p>
+        <p class="text-light text-center desc1">consectetur vero facere sint, ratione atque quis tenetur placeat</p>
+        <p class="text-light text-center desc2">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <br>
+        <button class="btn btn-outline-warning rounded-0 d-flex btn-lg mx-auto text-light button">Make
+            reservation</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-start">
+                    <i class="fab fa-twitter fa-lg text-info mr-3"></i>
+                    <i class="fab fa-facebook-f fa-lg text-primary mx-3"></i>
+                    <i class="fab fa-instagram fa-lg text-danger ml-3"></i>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-light text-end"><i class="fas fa-map-marker-alt text-warning"></i> &nbsp&nbsp 17,
+                        Bekapur, Munger 811201 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row mx-5">
+            <div class="col-md-2">
+                <p id="lorem1" style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                    ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-md-4">
+                <div id="behiend" class="border">
+
+                </div>
+                <div class="card rounded-0 border-none" id="mycard">
+
+                    <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                        class="card-img rounded-0">
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="fw-bold " style="margin-top: 145px">Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ut ea. Qui et placeat veniam,
+                    consequatur aut ea? Accusantium itaque, consequuntur labore natus omnis repellendus?</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h3 class="mt-5 text-center">Our Menu</h3>
+    <div class="container">
+        <div id="menu">
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur at excepturi
+                ducimus magnam culpa reiciendis dolor quasi a alias impedit!</p>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row text-center "></div>
+        <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#mains" id="pills-home-tab" data-bs-toggle="tab" aria-controls="mains"
+                    aria-selected="true">MAINS</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#lunch" id="pills-home-tab" data-bs-toggle="tab" aria-controls="lunch"
+                    aria-selected="false">LUNCH</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#dinner" id="pills-home-tab" data-bs-toggle="tab" aria-controls="dinner"
+                    aria-selected="false">DINNER</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#drinks" id="pills-home-tab" data-bs-toggle="tab" aria-controls="drinks"
+                    aria-selected="false">DRINKS</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="mains" role="tabpanel">
+                <div id="d1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card border-0">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade " id="lunch" role="tabpanel">
+                <div id="d1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card border-0">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade " id="dinner" role="tabpanel">
+                <div id="d1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card border-0">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade " id="drinks" role="tabpanel">
+                <div id="d1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card border-0">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card border-0 mt-4">
+                                <div class="row m-0">
+                                    <div class="col-md-4">
+                                        <img src="https://images.unsplash.com/photo-1550950158-d0d960dff51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                                            class="card-img rounded-0">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Lorem, ipsum.</h5>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p style="font-size: 18px;" class="text-end">$10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row m-0" id="contact">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6 py-5">
+            <h2 style="font-family: 'Pacifico', cursive;" class="text-center">Make Reservation</h2>
+            <p class="text-center text-muted mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Consequuntur necessitatibus impedit ipsum nemo ex aut.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <input placeholder="Full Name" class="form-control mt-3 rounded-0 outline-0 border-0">
+                    <input placeholder="Phone number" class="form-control mt-3 rounded-0 outline-0 border-0">
+                    <input placeholder="Email address" class="form-control mt-3 rounded-0 outline-0 border-0">
+                </div>
+                <div class="col-md-6">
+                    <select class="form-select mt-3 rounded-0 outline-0 border-0">
+                        <option>1 Person</option>
+                        <option selected>2 Persons</option>
+                        <option>3 Persons</option>
+                        <option>4 Persons</option>
+                        <option>5 Persons</option>
+                    </select>
+                    <input placeholder="Phone number" type="date"
+                        class="form-control mt-3 rounded-0 outline-0 border-0">
+                    <input placeholder="Email address" type="time"
+                        class="form-control mt-3 rounded-0 outline-0 border-0">
+                </div>
+            </div>
+            <button class="btn btn-outline-primary rounded-0 mt-4 d-flex mx-auto">Reserve a Table</button>
+        </div>
+
+        <div class="col-md-3">
+
+        </div>
+
+
+    </div>
+    <br>
+    <br>
+    <div class="container" style="padding-right: 10%; padding-left: 10%;">
+        <h3 class="text-center">What clients say about us</h3>
+        <p class="text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators ">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-dark" ></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-dark"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-dark"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="mt-5 ml-5" style="font-size: 19px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum culpa enim nostrum dolore
+                                porro non ullam est at natus minus repellat adipisci debitis, molestias veritatis
+                                molestiae! Tenetur explicabo inventore ipsam deleniti repudiandae hic aliquam assumenda
+                                soluta officiis, quisquam dolorem officia aut sit aliquid dignissimos adipisci repellat
+                                fugiat fuga numquam quibusdam debitis vitae quo nesciunt at. Ex assumenda sunt maxime
+                                animi?</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0">
+                                <img class="rounded-circle mx-auto" style="width: 70%"  src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=801&q=80">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="mt-5 ml-5" style="font-size: 19px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum culpa enim nostrum dolore
+                                porro non ullam est at natus minus repellat adipisci debitis, molestias veritatis
+                                molestiae! Tenetur explicabo inventore ipsam deleniti repudiandae hic aliquam assumenda
+                                soluta officiis, quisquam dolorem officia aut sit aliquid dignissimos adipisci repellat
+                                fugiat fuga numquam quibusdam debitis vitae quo nesciunt at. Ex assumenda sunt maxime
+                                animi?</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0">
+                                <img class="rounded-circle mx-auto" style="width: 70%"  src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="mt-5 ml-5" style="font-size: 19px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum culpa enim nostrum dolore
+                                porro non ullam est at natus minus repellat adipisci debitis, molestias veritatis
+                                molestiae! Tenetur explicabo inventore ipsam deleniti repudiandae hic aliquam assumenda
+                                soluta officiis, quisquam dolorem officia aut sit aliquid dignissimos adipisci repellat
+                                fugiat fuga numquam quibusdam debitis vitae quo nesciunt at. Ex assumenda sunt maxime
+                                animi?</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0">
+                                <img class="rounded-circle mx-auto" style="width: 70%"  src="https://images.unsplash.com/photo-1505247964246-1f0a90443c36?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <i class="fas fa-chevron-left fa-lg text-dark" style="margin-right: 240px;"></i>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <i class="fas fa-chevron-right fa-lg text-dark" style="margin-left: 240px;"></i>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7638.411207464916!2d86.47486991423337!3d25.376349396848152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f1eee4267d00db%3A0xbe652e8674705aa6!2sBekapur%20Road%2C%20Dilawer%20Pur%2C%20Munger%2C%20Bihar%20811201!5e0!3m2!1sen!2sin!4v1611770669038!5m2!1sen!2sin"
+        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+    <div class="bg-dark py-5">
+        <div class="container">
+            <div class="row m-0 text-center">
+                <div class="col-md-4">
+                     <h6 class="text-warning">About us</h6>
+                     <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quam delectus repellat commodi nobis magnam rem fugit molestias iste reprehenderit amet laboriosam dicta dolorem quia, enim autem mollitia minus velit! Fugiat explicabo excepturi natus! Exercitationem in perspiciatis ab dolore est nesciunt maxime, veritatis, laudantium vel neque accusamus, error delectus dolor?</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="text-warning">Contact info</h6>
+                    <p class="text-muted text-center"><i class="fas fa-map-marker-alt text-warning"></i> &nbsp&nbsp 17,
+                        Bekapur, Munger 811201 </p>
+                    <p class="text-muted text-center"><i class="fas fa-phone text-warning"></i> 9998887771 </p>
+                    <p class="text-muted text-center"><i class="far fa-envelope text-warning"></i> <a class="text-muted" href="">email@email.com</a> </p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="text-warning">Opening hours</h6>
+                    <p class="text-muted fw-bold">MONDAY - THURSDAY</p>
+                    <p class="text-muted ">10:00 AM - 11:00 PM</p>
+                    <p class="text-muted fw-bold">FRIDAY - SUNDAY</p>
+                    <p class="text-muted ">12:00 AM - 03:00 AM</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+
+</html>
